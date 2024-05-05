@@ -35,8 +35,8 @@ function BotDetails({ bots, handleAddToArmy,deleteBot }) {
       <p>{bot.catchphrase}</p>
       <p>Time Created:{bot.created_at}</p>
       <p>Time Updated: {bot.updated_at}</p>
-      <p>❤️: {bot.health}</p>
-      <p>💀: {bot.damage}</p>
+      <p>:): {bot.health}</p>
+      <p>$: {bot.damage}</p>
       <p>Armor: {bot.armor}</p>
       
       <Link to="/"className="back-link">Back</Link>

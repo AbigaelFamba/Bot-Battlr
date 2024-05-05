@@ -11,8 +11,8 @@ const BotArmy = ({ army, handleReleaseFromArmy,deleteBot }) => {
             <div>
               <h3>{bot.name}</h3>
               <p>Class: {bot.bot_class}</p>
-              <p>❤️: {bot.health}</p>
-              <p>💀: {bot.damage}</p>
+              <p>:): {bot.health}</p>
+              <p>$: {bot.damage}</p>
               <p>Armor: {bot.armor}</p>
               <p><button onClick={() => deleteBot(bot)} > X </button></p>
               
